@@ -1,6 +1,6 @@
 let static = require('node-static');
 
-let file = new static.Server();
+let file = new static.Server('./main.html');
 
 require('http').createServer(function(req,res){
     req.addListener('end',function(){
