@@ -1,0 +1,19 @@
+{
+  "name": "spencer",
+  "version": "1.0.0",
+  "description": "smart cleaner",
+  "main": "trick.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irobotSpencer/spencer.git"
+  },
+  "author": "Bilal Hussain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irobotSpencer/spencer/issues"
+  },
+  "homepage": "https://github.com/irobotSpencer/spencer#readme"
+}
