@@ -4,7 +4,8 @@
   "description": "smart cleaner",
   "main": "trick.php",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "trick.php"
   },
   "repository": {
     "type": "git",
