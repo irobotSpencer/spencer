@@ -2,10 +2,8 @@
   "name": "spencer",
   "version": "1.0.0",
   "description": "smart cleaner",
-  "main": "trick.php",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "trick.php"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
