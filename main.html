@@ -33,25 +33,23 @@
     <script src="vendor/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <style>
         img.size {
-    position: relative;
-    float: top;
-    width: 300px;
-    height: 300px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
-    border:2px solid #333333;
-    border-radius: 10%;
+            position: relative;
+            float: top;
+            width: 300px;
+            height: 300px;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: 2px solid #333333;
+            border-radius: 10%;
 
         }
     </style>
 </head>
-
 <body data-spy="scroll" data-target=".navbar-collapse">
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
     <header id="main_menu" class="header navbar-fixed-top">
         <div class="main_menu_bg">
             <div class="container">
@@ -87,24 +85,25 @@
                                       <br>
                                       <span style="color:white">Password:&nbsp;</span>
                                       <input type="password" name="" value="" class="login">
-                                    </div> -->
+                                </div> -->
 
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-
-
                                     <ul class="nav navbar-nav navbar-right">
                                         <li>
-                                            <a href="#home"> <span class="glyphicon glyphicon-home"></span> Home</a>
+                                            <a href="main.html">
+                                                <span class="glyphicon glyphicon-home"></span> Home</a>
                                         </li>
                                         <li>
-                                            <a href="#service"> <span class="glyphicon glyphicon-wrench"></span> Services</a>
+                                            <a href="#problems">
+                                                <span class="glyphicon glyphicon-wrench"></span> Services</a>
                                         </li>
                                         <li>
-                                            <a href="#steps"><span class="glyphicon glyphicon-info-sign"></span> About Spencer</a>
+                                            <a href="#services">
+                                                <span class="glyphicon glyphicon-info-sign"></span> About Spencer</a>
                                         </li>
                                         <li>
-                                            <a href="#contact"><span class="glyphicon glyphicon-phone-alt"></span> Contact Us</a>
+                                            <a href="#contact">
+                                                <span class="glyphicon glyphicon-phone-alt"></span> Contact Us</a>
                                         </li>
                                         <li class="dropdown">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -129,133 +128,90 @@
                                         </li>
                                     </ul>
                                 </div>
-
-
-
                             </div>
                         </nav>
                     </div>
                 </div>
-
             </div>
-
         </div>
     </header>
     <!--End of header -->
-
+<!-- Info Carousel -->
     <section id="home" class="home">
-        <div class="overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 ">
-                        <div class="main_home_slider text-center">
-                            <div class="single_home_slider">
-                                <div class="main_home wow fadeInUp" data-wow-duration="700ms">
-                                    <h1>Here to clean up after your mess</h1>
-                                    <p class="subtitle">Feel at ease with Spencer</p>
-
-                                    <div class="home_btn">
-                                        <a href="#service" class="btn btn-md">Learn More</a>
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 ">
+                            <div class="main_home_slider text-center">
+                                <div class="single_home_slider">
+                                    <div class="main_home wow fadeInUp" data-wow-duration="700ms">
+                                        <h1>Here to clean up after your mess</h1>
+                                        <p class="subtitle">Feel at ease with Spencer</p>
+                                        <div class="home_btn">
+                                            <a href="#service" class="btn btn-md">Learn More</a>
+                                        </div>
                                     </div>
-
                                 </div>
-                            </div>
-                            <div class="single_home_slider">
-                                <div class="main_home wow fadeInUp" data-wow-duration="700ms">
-                                    <h1>Want to clean up a room?</h1>
-                                    <p class="subtitle">With a broom? NO! Use Spencer! </p>
+                                <div class="single_home_slider">
+                                    <div class="main_home wow fadeInUp" data-wow-duration="700ms">
+                                        <h1>Want to clean up a room?</h1>
+                                        <p class="subtitle">With a broom? NO! Use Spencer! </p>
 
-                                    <div class="home_btn">
-                                        <a href="#steps" class="btn btn-md">Learn More</a>
+                                        <div class="home_btn">
+                                            <a href="#steps" class="btn btn-md">Learn More</a>
+                                        </div>
+
                                     </div>
-
                                 </div>
-                            </div>
-                            <div class="single_home_slider">
-                                <div class="main_home wow fadeInUp" data-wow-duration="700ms">
-                                    <h1>Encountering sanitation problems?</h1>
-                                    <p class="subtitle">We're here to help!</p>
+                                <div class="single_home_slider">
+                                    <div class="main_home wow fadeInUp" data-wow-duration="700ms">
+                                        <h1>Encountering sanitation problems?</h1>
+                                        <p class="subtitle">We're here to help!</p>
 
-                                    <div class="home_btn">
-                                        <a href="#contact" class="btn btn-md">Learn More</a>
+                                        <div class="home_btn">
+                                            <a href="#contact" class="btn btn-md">Learn More</a>
+                                        </div>
+
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+    </section>
+<!-- Problems -->
+<a name = "problems">
+    <section id="problems">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    </br>
+                    <img class="size" src="images/dust.jpg" alt="No Image">
+                    <h3>Got Dust?</h3>
+                </div>
+                <div class="col-md-4">
+                    </br>
+                    <img class="size" src="images/shavings.jpg" alt="No Image">
+                    <h3>Eraser Shavings? </h3>
+                </div>
+                <div class="col-md-4">
+                    </br>
+                    <img class="size" src="images/crumbs.jpg" alt="No Image">
+                    <h3>Maybe Crumbs?</h3>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- <section id="service" class="choose">
-        <div class="row">
-            <div class="row">
-                    <div class="main_choose_area sections">
-                        <div class="col-sm-7 col-sm-offset-1">
-                            <div class="main_choose_content text-left">
-                                <div class="single_choose_content" style="border: 1px solid red;">
-
-            <h1 style="color: black; text-align: center; margin-bottom:20px;">Our service</h1>
-
-            <div class="single_service_left">
-                <h4>
-                    <span style="color:black">Dusty room?</span>
-                </h4>
-                <img src="images/dust_room.jpg" alt="No Image">
-            </div>
-
-
-            <img src="images/arrow.png" alt="No Image" class="arrow">
-
-
-            <div class="single_service_center">
-                <h4>
-                    <span style="color:black">Register online</span>
-                </h4>
-                <img src="images/choosebg.png" alt="No Image">
-            </div>
-
-            <img src="images/arrow.png" alt="No Image" class="arrow">
-
-            <div class="single_service_right">
-                <h4>
-                    <span style="color:black">Clean room</span>
-                </h4>
-                <img src="images/cleaning.jpg" alt="No Image">
-            </div> -->
-            <section id = "problems">
-            <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            </br>
-                            <img class = "size" src="images/dust.jpg" alt="No Image">
-                            <h3>Got Dust?</h3>
-                        </div>
-                        <div class="col-md-4">
-                        </br>
-                            <img class = "size" src="images/shavings.jpg" alt="No Image">
-                            <h3>Eraser Shavings? </h3>
-                        </div>
-                        <div class="col-md-4">
-                        </br>
-                            <img class = "size" src="images/crumbs.jpg" alt="No Image">
-                            <h3>Maybe Crumbs?</h3>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- </div>
+    <!-- </div>
                             </div>
                         </div>
                     </div>
                 </div> -->
-        </div>
+    </div>
     </section>
-
-
-    
+<a name = "services">
+<!-- Steps and Info -->
     <section id="steps">
         <div class="container">
             <div class="row">
@@ -309,10 +265,8 @@
             </div>
         </div>
     </section>
-
-
-
-
+<!-- Contact Section -->
+<a name = "contact">
     <section id="contact" class="contact">
         <div class="container">
             <div class="row">
@@ -344,14 +298,12 @@
                                         </div>
 
                                         <div class="">
-                                            <input type="submit" value="Send"  class="btn btn-primary" >
+                                            <input type="submit" value="Send" class="btn btn-primary">
                                         </div>
                                         <!--</div>-->
                                     </form>
                                 </div>
                             </div>
-
-
                             <div class="col-sm-5 col-sm-offset-1 col-xs-12">
                                 <div class="single_message_right_info">
                                     <h4>Contact Info :</h4>
@@ -379,11 +331,7 @@
             </div>
         </div>
     </section>
-
-
-
-
-
+<!-- Footer -->
     <footer id="footer" class="footer">
         <div class="container">
             <div class="main_footer">
@@ -391,22 +339,21 @@
 
                     <div class="col-sm-6 col-xs-12">
                         <div class="copyright_text">
-                            <p class=" wow fadeInRight" data-wow-duration="1s">Made with<a href="http://bootstrapthemes.co">Bootstrap</a>in 2018. All Rights Reserved</p>
+                            <p class=" wow fadeInRight" data-wow-duration="1s">Made with
+                                <a href="http://bootstrapthemes.co">Bootstrap</a>in 2018. All Rights Reserved</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-
     <!-- START SCROLL TO TOP  -->
-
     <div class="scrollup">
         <a href="#">
             <i class="fa fa-chevron-up"></i>
         </a>
     </div>
-
+<!-- Js Sources -->
     <script src="vendor/js/vendor/jquery-1.11.2.min.js"></script>
     <script src="vendor/js/vendor/bootstrap.min.js"></script>
 
